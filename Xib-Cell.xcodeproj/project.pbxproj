@@ -12,6 +12,8 @@
 		E3D089BD229BC5C7002FE01D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D089BB229BC5C7002FE01D /* Main.storyboard */; };
 		E3D089BF229BC5C9002FE01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D089BE229BC5C9002FE01D /* Assets.xcassets */; };
 		E3D089C2229BC5C9002FE01D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D089C0229BC5C9002FE01D /* LaunchScreen.storyboard */; };
+		E3D089CC229BCCB1002FE01D /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D089CA229BCCB1002FE01D /* PostTableViewCell.swift */; };
+		E3D089CD229BCCB1002FE01D /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D089CB229BCCB1002FE01D /* PostTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E3D089BE229BC5C9002FE01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3D089C1229BC5C9002FE01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3D089C3229BC5C9002FE01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D089CA229BCCB1002FE01D /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		E3D089CB229BCCB1002FE01D /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 		E3D089C9229BC829002FE01D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E3D089CA229BCCB1002FE01D /* PostTableViewCell.swift */,
+				E3D089CB229BCCB1002FE01D /* PostTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -133,6 +139,7 @@
 				E3D089C2229BC5C9002FE01D /* LaunchScreen.storyboard in Resources */,
 				E3D089BF229BC5C9002FE01D /* Assets.xcassets in Resources */,
 				E3D089BD229BC5C7002FE01D /* Main.storyboard in Resources */,
+				E3D089CD229BCCB1002FE01D /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +152,7 @@
 			files = (
 				E3D089BA229BC5C7002FE01D /* ViewController.swift in Sources */,
 				E3D089B8229BC5C7002FE01D /* AppDelegate.swift in Sources */,
+				E3D089CC229BCCB1002FE01D /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P5RBZW84K8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Xib-Cell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P5RBZW84K8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Xib-Cell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

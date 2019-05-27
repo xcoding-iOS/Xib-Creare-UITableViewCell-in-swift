@@ -14,6 +14,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        PostTableViewCell.register(in: self.tableView, identifier: "postCell")
+        
+        tableView.dataSource = self
     }
 
 }
@@ -25,7 +29,8 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell.init()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "postCell", for: indexPath)
+        return cell
     }
 }
 

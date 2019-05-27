@@ -54,6 +54,7 @@
 		E3D089B6229BC5C7002FE01D /* Xib-Cell */ = {
 			isa = PBXGroup;
 			children = (
+				E3D089C9229BC829002FE01D /* View */,
 				E3D089B7229BC5C7002FE01D /* AppDelegate.swift */,
 				E3D089B9229BC5C7002FE01D /* ViewController.swift */,
 				E3D089BB229BC5C7002FE01D /* Main.storyboard */,
@@ -62,6 +63,13 @@
 				E3D089C3229BC5C9002FE01D /* Info.plist */,
 			);
 			path = "Xib-Cell";
+			sourceTree = "<group>";
+		};
+		E3D089C9229BC829002FE01D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
